@@ -128,6 +128,7 @@ MonoBehaviour:
   m_onIsUpwardChanged:
     m_PersistentCalls:
       m_Calls: []
+  m_currentAngle: 0
 --- !u!1001 &7276928935682029396
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -189,6 +190,11 @@ PrefabInstance:
     - target: {fileID: -7635826562936255635, guid: c81ed51e76fed874f8025c8030dc0f0e,
         type: 3}
       propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7635826562936255635, guid: c81ed51e76fed874f8025c8030dc0f0e,
+        type: 3}
+      propertyPath: m_DynamicOccludee
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7635826562936255635, guid: c81ed51e76fed874f8025c8030dc0f0e,

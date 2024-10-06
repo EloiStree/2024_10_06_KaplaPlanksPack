@@ -25,7 +25,10 @@ public class AddGravityAtKaplaOnCommandMono : MonoBehaviour
             if(r == null) 
                 r =k.gameObject.AddComponent<Rigidbody>();
 
-            if (m_rigidBodyToCopy != null) {             
+
+            if (m_rigidBodyToCopy != null) {
+
+                // Basic Rigidbody Properties
                 r.mass = m_rigidBodyToCopy.mass;
                 r.drag = m_rigidBodyToCopy.drag;
                 r.angularDrag = m_rigidBodyToCopy.angularDrag;
@@ -34,16 +37,32 @@ public class AddGravityAtKaplaOnCommandMono : MonoBehaviour
                 r.interpolation = m_rigidBodyToCopy.interpolation;
                 r.collisionDetectionMode = m_rigidBodyToCopy.collisionDetectionMode;
                 r.constraints = m_rigidBodyToCopy.constraints;
+
+                // Movement Properties
+                r.velocity = m_rigidBodyToCopy.velocity;
+                r.angularVelocity = m_rigidBodyToCopy.angularVelocity;
+                r.maxDepenetrationVelocity = m_rigidBodyToCopy.maxDepenetrationVelocity;
+
+                // Rigidbody Sleeping Settings
+                r.sleepThreshold = m_rigidBodyToCopy.sleepThreshold;
+                r.maxAngularVelocity = m_rigidBodyToCopy.maxAngularVelocity;
+
+                // Rigidbody Center of Mass and Inertia
                 r.centerOfMass = m_rigidBodyToCopy.centerOfMass;
                 r.inertiaTensor = m_rigidBodyToCopy.inertiaTensor;
                 r.inertiaTensorRotation = m_rigidBodyToCopy.inertiaTensorRotation;
-                r.maxAngularVelocity = m_rigidBodyToCopy.maxAngularVelocity;
-                r.maxDepenetrationVelocity = m_rigidBodyToCopy.maxDepenetrationVelocity;
-                r.sleepThreshold = m_rigidBodyToCopy.sleepThreshold;
+
+                // Rigidbody Properties Introduced in Newer Versions
+                r.detectCollisions = m_rigidBodyToCopy.detectCollisions;
                 r.solverIterations = m_rigidBodyToCopy.solverIterations;
                 r.solverVelocityIterations = m_rigidBodyToCopy.solverVelocityIterations;
+
+                // Rigidbody Constraints and Flags
+                r.constraints = m_rigidBodyToCopy.constraints;
+                r.detectCollisions = m_rigidBodyToCopy.detectCollisions;
                 r.sleepThreshold = m_rigidBodyToCopy.sleepThreshold;
-                
+
+
 
             }
         }

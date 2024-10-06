@@ -11,9 +11,9 @@
   "relatedPackages":{},     
   "samples" : [],     
   "author" : {
-"name":"",
-"mail":"",
-"url":""},     
+    "name":"Éloi Strée",
+    "mail":"",
+    "url":""},     
   "repository":{
 "type":"Git",
 "url":"https://github.com/EloiStree/2024_10_06_KaplaPlanksPack.git",
