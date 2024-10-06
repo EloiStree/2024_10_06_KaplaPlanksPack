@@ -54,6 +54,12 @@ public class CreateCubeOfKaplaMono : MonoBehaviour
         m_onCreated.Invoke();
     }
 
+    [ContextMenu("Destoy Children")]
+    public void DestroyAllChildrent()
+    {
+        DestroyAllChildrensOf(m_parent);
+    }
+
     public void DestroyAllChildrensOf(Transform parent)
     {
         for (int i = parent.childCount - 1; i >= 0; i--)
