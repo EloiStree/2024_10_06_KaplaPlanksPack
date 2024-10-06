@@ -1,6 +1,5 @@
 # 2024_10_06_KaplaPlanksPack
-Jus
-t some Kapla plank for mass destruction in Unity3D.
+Just some Kapla plank for mass destruction in Unity3D.
 
 
 The official dimensions of a Kapla plank are:
