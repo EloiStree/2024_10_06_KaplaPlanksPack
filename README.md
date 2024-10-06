@@ -31,4 +31,8 @@ Physics would be a full workshop, on: ECS, Job System, Math and Compute Shader ð
 https://youtu.be/jiuzJsrIxPU?t=6
 
 
-![image](https://github.com/user-attachments/assets/476028a2-3a81-40ad-b58d-28cdf2e09d4a)
+![image](https://github.com/user-attachments/assets/476028a2-3a81-40ad-b58d-28cdf2e09d4a)  
+
+ 
+A nightmare:  
+![image](https://github.com/user-attachments/assets/e0377c3d-e83b-4345-b389-6cbd165011e1)  
