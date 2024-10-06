@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,6 +14,13 @@ public class IsKaplaUpwardMono : MonoBehaviour
     public UnityEvent<bool> m_onIsUpwardChanged;
 
     public float m_currentAngle;
+
+    public bool IsUpward()
+    {
+        return m_isUpward;
+
+    }
+
     private void Reset()
     {
         m_kaplaDirection = transform;
