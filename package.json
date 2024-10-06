@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.kapla",                              
+  "displayName": "Kapla Planks Pack",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "Just some kapla for your game if you need some massive destruction :). Not Job or ECS optimisation or LOD in this version. But why not in the next coming version.",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2024_10_06_KaplaPlanksPack.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
