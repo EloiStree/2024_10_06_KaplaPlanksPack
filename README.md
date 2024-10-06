@@ -20,3 +20,12 @@ The official dimensions of a Kapla plank are:
 [![image](https://github.com/user-attachments/assets/9e80aaea-d8ed-47c2-af79-e5c0d8d149a7)](https://youtu.be/vi7F8FVLU2g?t=461)
 - https://youtu.be/vi7F8FVLU2g?t=461
 - https://www.youtube.com/results?search_query=kapla+best
+
+
+Try to do Physics of is the definition of this image:
+![image](https://github.com/user-attachments/assets/7bfb019e-7ad5-47e0-a1ce-d275920f337e)
+
+So... Some video of Physics but we don't do it in this package.
+Physics would be a full workshop, on: ECS, Job System, Math and Compute Shader 🧙‍♂️😜.
+[![image](https://github.com/user-attachments/assets/d0f86b1b-b143-4ae6-a563-dd2c7954a0aa)](https://youtu.be/jiuzJsrIxPU?t=6)
+https://youtu.be/jiuzJsrIxPU?t=6
